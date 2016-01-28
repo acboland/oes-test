@@ -11,6 +11,13 @@ assigned:
         permalink: /about/
         show_in_menu: true
         show_in_footer: false
+        children:
+            -
+                text: 1454019088551.md
+                href: pages/1454019088551.md
+                permalink: null
+                show_in_menu: false
+                show_in_footer: false
     -
         text: Work
         href: pages/projects.md
@@ -19,26 +26,20 @@ assigned:
         show_in_footer: false
         children:
             -
-                text: 'Microloans for Farmers'
-                href: pages/projects/microloans-for-farmers.md
+                text: 'Reducing Summer Melt'
+                href: pages/projects/reducing-summer-melt.md
                 permalink: null
                 show_in_menu: false
                 show_in_footer: false
             -
-                text: 'Reducing Summer Melt'
-                href: pages/projects/reducing-summer-melt.md
+                text: 'Microloans for Farmers'
+                href: pages/projects/microloans-for-farmers.md
                 permalink: null
                 show_in_menu: false
                 show_in_footer: false
     -
         text: 'Project data'
         href: _data/projects.yml
-        permalink: null
-        show_in_menu: false
-        show_in_footer: false
-    -
-        text: 1454019088551.md
-        href: pages/1454019088551.md
         permalink: null
         show_in_menu: false
         show_in_footer: false
